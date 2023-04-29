@@ -1,0 +1,991 @@
+<?xml version="1.0"?>
+<mapping>
+	<map>
+		<framework name="data" output_port_id="data" />
+		<IR name="data" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="bn_data" output_port_id="bn_data" />
+		<IR name="bn_data" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="bn0" output_port_id="bn0" />
+		<IR name="bn0" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="relu0" output_port_id="relu0" />
+		<IR name="relu0" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="pooling0" output_port_id="pooling0" />
+		<IR name="pooling0" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="stage1_unit1_bn1" output_port_id="stage1_unit1_bn1" />
+		<IR name="stage1_unit1_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage1_unit1_relu1" output_port_id="stage1_unit1_relu1" />
+		<IR name="stage1_unit1_relu1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="stage1_unit1_bn2" output_port_id="stage1_unit1_bn2" />
+		<IR name="stage1_unit1_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage1_unit1_relu2" output_port_id="stage1_unit1_relu2" />
+		<IR name="stage1_unit1_relu2" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="stage1_unit1_bn3" output_port_id="stage1_unit1_bn3" />
+		<IR name="stage1_unit1_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage1_unit1_relu3" output_port_id="stage1_unit1_relu3" />
+		<IR name="stage1_unit1_relu3" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="stage1_unit1_conv3_weight" output_port_id="stage1_unit1_conv3_weight" />
+		<IR name="stage1_unit1_conv3_weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage1_unit1_conv3" output_port_id="stage1_unit1_conv3" />
+		<IR name="stage1_unit1_conv3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage1_unit1_sc_weight" output_port_id="stage1_unit1_sc_weight" />
+		<IR name="stage1_unit1_sc_weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage1_unit1_sc" output_port_id="stage1_unit1_sc" />
+		<IR name="stage1_unit1_sc" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus0" output_port_id="_plus0" />
+		<IR name="_plus0" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage1_unit2_bn1" output_port_id="stage1_unit2_bn1" />
+		<IR name="stage1_unit2_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage1_unit2_relu1" output_port_id="stage1_unit2_relu1" />
+		<IR name="stage1_unit2_relu1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="stage1_unit2_bn2" output_port_id="stage1_unit2_bn2" />
+		<IR name="stage1_unit2_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage1_unit2_relu2" output_port_id="stage1_unit2_relu2" />
+		<IR name="stage1_unit2_relu2" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="stage1_unit2_bn3" output_port_id="stage1_unit2_bn3" />
+		<IR name="stage1_unit2_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage1_unit2_relu3" output_port_id="stage1_unit2_relu3" />
+		<IR name="stage1_unit2_relu3" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="stage1_unit2_conv3_weight" output_port_id="stage1_unit2_conv3_weight" />
+		<IR name="stage1_unit2_conv3_weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage1_unit2_conv3" output_port_id="stage1_unit2_conv3" />
+		<IR name="stage1_unit2_conv3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus1" output_port_id="_plus1" />
+		<IR name="_plus1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage1_unit3_bn1" output_port_id="stage1_unit3_bn1" />
+		<IR name="stage1_unit3_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage1_unit3_relu1" output_port_id="stage1_unit3_relu1" />
+		<IR name="stage1_unit3_relu1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="stage1_unit3_bn2" output_port_id="stage1_unit3_bn2" />
+		<IR name="stage1_unit3_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage1_unit3_relu2" output_port_id="stage1_unit3_relu2" />
+		<IR name="stage1_unit3_relu2" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="stage1_unit3_bn3" output_port_id="stage1_unit3_bn3" />
+		<IR name="stage1_unit3_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage1_unit3_relu3" output_port_id="stage1_unit3_relu3" />
+		<IR name="stage1_unit3_relu3" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="stage1_unit3_conv3_weight" output_port_id="stage1_unit3_conv3_weight" />
+		<IR name="stage1_unit3_conv3_weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage1_unit3_conv3" output_port_id="stage1_unit3_conv3" />
+		<IR name="stage1_unit3_conv3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus2" output_port_id="_plus2" />
+		<IR name="_plus2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage2_unit1_bn1" output_port_id="stage2_unit1_bn1" />
+		<IR name="stage2_unit1_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage2_unit1_relu1" output_port_id="stage2_unit1_relu1" />
+		<IR name="stage2_unit1_relu1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="stage2_unit1_bn2" output_port_id="stage2_unit1_bn2" />
+		<IR name="stage2_unit1_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage2_unit1_relu2" output_port_id="stage2_unit1_relu2" />
+		<IR name="stage2_unit1_relu2" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="stage2_unit1_bn3" output_port_id="stage2_unit1_bn3" />
+		<IR name="stage2_unit1_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage2_unit1_relu3" output_port_id="stage2_unit1_relu3" />
+		<IR name="stage2_unit1_relu3" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="stage2_unit1_conv3_weight" output_port_id="stage2_unit1_conv3_weight" />
+		<IR name="stage2_unit1_conv3_weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage2_unit1_conv3" output_port_id="stage2_unit1_conv3" />
+		<IR name="stage2_unit1_conv3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage2_unit1_sc_weight" output_port_id="stage2_unit1_sc_weight" />
+		<IR name="stage2_unit1_sc_weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage2_unit1_sc" output_port_id="stage2_unit1_sc" />
+		<IR name="stage2_unit1_sc" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus3" output_port_id="_plus3" />
+		<IR name="_plus3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage2_unit2_bn1" output_port_id="stage2_unit2_bn1" />
+		<IR name="stage2_unit2_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage2_unit2_relu1" output_port_id="stage2_unit2_relu1" />
+		<IR name="stage2_unit2_relu1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="stage2_unit2_bn2" output_port_id="stage2_unit2_bn2" />
+		<IR name="stage2_unit2_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage2_unit2_relu2" output_port_id="stage2_unit2_relu2" />
+		<IR name="stage2_unit2_relu2" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="stage2_unit2_bn3" output_port_id="stage2_unit2_bn3" />
+		<IR name="stage2_unit2_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage2_unit2_relu3" output_port_id="stage2_unit2_relu3" />
+		<IR name="stage2_unit2_relu3" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="stage2_unit2_conv3_weight" output_port_id="stage2_unit2_conv3_weight" />
+		<IR name="stage2_unit2_conv3_weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage2_unit2_conv3" output_port_id="stage2_unit2_conv3" />
+		<IR name="stage2_unit2_conv3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus4" output_port_id="_plus4" />
+		<IR name="_plus4" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage2_unit3_bn1" output_port_id="stage2_unit3_bn1" />
+		<IR name="stage2_unit3_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage2_unit3_relu1" output_port_id="stage2_unit3_relu1" />
+		<IR name="stage2_unit3_relu1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="stage2_unit3_bn2" output_port_id="stage2_unit3_bn2" />
+		<IR name="stage2_unit3_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage2_unit3_relu2" output_port_id="stage2_unit3_relu2" />
+		<IR name="stage2_unit3_relu2" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="stage2_unit3_bn3" output_port_id="stage2_unit3_bn3" />
+		<IR name="stage2_unit3_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage2_unit3_relu3" output_port_id="stage2_unit3_relu3" />
+		<IR name="stage2_unit3_relu3" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="stage2_unit3_conv3_weight" output_port_id="stage2_unit3_conv3_weight" />
+		<IR name="stage2_unit3_conv3_weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage2_unit3_conv3" output_port_id="stage2_unit3_conv3" />
+		<IR name="stage2_unit3_conv3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus5" output_port_id="_plus5" />
+		<IR name="_plus5" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage2_unit4_bn1" output_port_id="stage2_unit4_bn1" />
+		<IR name="stage2_unit4_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage2_unit4_relu1" output_port_id="stage2_unit4_relu1" />
+		<IR name="stage2_unit4_relu1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="stage2_unit4_bn2" output_port_id="stage2_unit4_bn2" />
+		<IR name="stage2_unit4_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage2_unit4_relu2" output_port_id="stage2_unit4_relu2" />
+		<IR name="stage2_unit4_relu2" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="stage2_unit4_bn3" output_port_id="stage2_unit4_bn3" />
+		<IR name="stage2_unit4_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage2_unit4_relu3" output_port_id="stage2_unit4_relu3" />
+		<IR name="stage2_unit4_relu3" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="stage2_unit4_conv3_weight" output_port_id="stage2_unit4_conv3_weight" />
+		<IR name="stage2_unit4_conv3_weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage2_unit4_conv3" output_port_id="stage2_unit4_conv3" />
+		<IR name="stage2_unit4_conv3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus6" output_port_id="_plus6" />
+		<IR name="_plus6" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit1_bn1" output_port_id="stage3_unit1_bn1" />
+		<IR name="stage3_unit1_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit1_relu1" output_port_id="stage3_unit1_relu1" />
+		<IR name="stage3_unit1_relu1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="stage3_unit1_bn2" output_port_id="stage3_unit1_bn2" />
+		<IR name="stage3_unit1_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit1_relu2" output_port_id="stage3_unit1_relu2" />
+		<IR name="stage3_unit1_relu2" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="ssh_m1_red_conv_bn" output_port_id="ssh_m1_red_conv_bn" />
+		<IR name="ssh_m1_red_conv_bn" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="ssh_m1_red_conv_relu" output_port_id="ssh_m1_red_conv_relu" />
+		<IR name="ssh_m1_red_conv_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="stage3_unit1_bn3" output_port_id="stage3_unit1_bn3" />
+		<IR name="stage3_unit1_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit1_relu3" output_port_id="stage3_unit1_relu3" />
+		<IR name="stage3_unit1_relu3" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="stage3_unit1_conv3_weight" output_port_id="stage3_unit1_conv3_weight" />
+		<IR name="stage3_unit1_conv3_weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage3_unit1_conv3" output_port_id="stage3_unit1_conv3" />
+		<IR name="stage3_unit1_conv3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit1_sc_weight" output_port_id="stage3_unit1_sc_weight" />
+		<IR name="stage3_unit1_sc_weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage3_unit1_sc" output_port_id="stage3_unit1_sc" />
+		<IR name="stage3_unit1_sc" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus7" output_port_id="_plus7" />
+		<IR name="_plus7" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit2_bn1" output_port_id="stage3_unit2_bn1" />
+		<IR name="stage3_unit2_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit2_relu1" output_port_id="stage3_unit2_relu1" />
+		<IR name="stage3_unit2_relu1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="stage3_unit2_bn2" output_port_id="stage3_unit2_bn2" />
+		<IR name="stage3_unit2_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit2_relu2" output_port_id="stage3_unit2_relu2" />
+		<IR name="stage3_unit2_relu2" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="stage3_unit2_bn3" output_port_id="stage3_unit2_bn3" />
+		<IR name="stage3_unit2_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit2_relu3" output_port_id="stage3_unit2_relu3" />
+		<IR name="stage3_unit2_relu3" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="stage3_unit2_conv3_weight" output_port_id="stage3_unit2_conv3_weight" />
+		<IR name="stage3_unit2_conv3_weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage3_unit2_conv3" output_port_id="stage3_unit2_conv3" />
+		<IR name="stage3_unit2_conv3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus8" output_port_id="_plus8" />
+		<IR name="_plus8" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit3_bn1" output_port_id="stage3_unit3_bn1" />
+		<IR name="stage3_unit3_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit3_relu1" output_port_id="stage3_unit3_relu1" />
+		<IR name="stage3_unit3_relu1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="stage3_unit3_bn2" output_port_id="stage3_unit3_bn2" />
+		<IR name="stage3_unit3_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit3_relu2" output_port_id="stage3_unit3_relu2" />
+		<IR name="stage3_unit3_relu2" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="stage3_unit3_bn3" output_port_id="stage3_unit3_bn3" />
+		<IR name="stage3_unit3_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit3_relu3" output_port_id="stage3_unit3_relu3" />
+		<IR name="stage3_unit3_relu3" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="stage3_unit3_conv3_weight" output_port_id="stage3_unit3_conv3_weight" />
+		<IR name="stage3_unit3_conv3_weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage3_unit3_conv3" output_port_id="stage3_unit3_conv3" />
+		<IR name="stage3_unit3_conv3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus9" output_port_id="_plus9" />
+		<IR name="_plus9" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit4_bn1" output_port_id="stage3_unit4_bn1" />
+		<IR name="stage3_unit4_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit4_relu1" output_port_id="stage3_unit4_relu1" />
+		<IR name="stage3_unit4_relu1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="stage3_unit4_bn2" output_port_id="stage3_unit4_bn2" />
+		<IR name="stage3_unit4_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit4_relu2" output_port_id="stage3_unit4_relu2" />
+		<IR name="stage3_unit4_relu2" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="stage3_unit4_bn3" output_port_id="stage3_unit4_bn3" />
+		<IR name="stage3_unit4_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit4_relu3" output_port_id="stage3_unit4_relu3" />
+		<IR name="stage3_unit4_relu3" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="stage3_unit4_conv3_weight" output_port_id="stage3_unit4_conv3_weight" />
+		<IR name="stage3_unit4_conv3_weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage3_unit4_conv3" output_port_id="stage3_unit4_conv3" />
+		<IR name="stage3_unit4_conv3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus10" output_port_id="_plus10" />
+		<IR name="_plus10" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit5_bn1" output_port_id="stage3_unit5_bn1" />
+		<IR name="stage3_unit5_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit5_relu1" output_port_id="stage3_unit5_relu1" />
+		<IR name="stage3_unit5_relu1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="stage3_unit5_bn2" output_port_id="stage3_unit5_bn2" />
+		<IR name="stage3_unit5_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit5_relu2" output_port_id="stage3_unit5_relu2" />
+		<IR name="stage3_unit5_relu2" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="stage3_unit5_bn3" output_port_id="stage3_unit5_bn3" />
+		<IR name="stage3_unit5_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit5_relu3" output_port_id="stage3_unit5_relu3" />
+		<IR name="stage3_unit5_relu3" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="stage3_unit5_conv3_weight" output_port_id="stage3_unit5_conv3_weight" />
+		<IR name="stage3_unit5_conv3_weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage3_unit5_conv3" output_port_id="stage3_unit5_conv3" />
+		<IR name="stage3_unit5_conv3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus11" output_port_id="_plus11" />
+		<IR name="_plus11" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit6_bn1" output_port_id="stage3_unit6_bn1" />
+		<IR name="stage3_unit6_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit6_relu1" output_port_id="stage3_unit6_relu1" />
+		<IR name="stage3_unit6_relu1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="stage3_unit6_bn2" output_port_id="stage3_unit6_bn2" />
+		<IR name="stage3_unit6_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit6_relu2" output_port_id="stage3_unit6_relu2" />
+		<IR name="stage3_unit6_relu2" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="stage3_unit6_bn3" output_port_id="stage3_unit6_bn3" />
+		<IR name="stage3_unit6_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit6_relu3" output_port_id="stage3_unit6_relu3" />
+		<IR name="stage3_unit6_relu3" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="stage3_unit6_conv3_weight" output_port_id="stage3_unit6_conv3_weight" />
+		<IR name="stage3_unit6_conv3_weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage3_unit6_conv3" output_port_id="stage3_unit6_conv3" />
+		<IR name="stage3_unit6_conv3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus12" output_port_id="_plus12" />
+		<IR name="_plus12" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage4_unit1_bn1" output_port_id="stage4_unit1_bn1" />
+		<IR name="stage4_unit1_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage4_unit1_relu1" output_port_id="stage4_unit1_relu1" />
+		<IR name="stage4_unit1_relu1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="stage4_unit1_bn2" output_port_id="stage4_unit1_bn2" />
+		<IR name="stage4_unit1_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage4_unit1_relu2" output_port_id="stage4_unit1_relu2" />
+		<IR name="stage4_unit1_relu2" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="ssh_c2_lateral_bn" output_port_id="ssh_c2_lateral_bn" />
+		<IR name="ssh_c2_lateral_bn" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="ssh_c2_lateral_relu" output_port_id="ssh_c2_lateral_relu" />
+		<IR name="ssh_c2_lateral_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="stage4_unit1_bn3" output_port_id="stage4_unit1_bn3" />
+		<IR name="stage4_unit1_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage4_unit1_relu3" output_port_id="stage4_unit1_relu3" />
+		<IR name="stage4_unit1_relu3" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="stage4_unit1_conv3_weight" output_port_id="stage4_unit1_conv3_weight" />
+		<IR name="stage4_unit1_conv3_weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage4_unit1_conv3" output_port_id="stage4_unit1_conv3" />
+		<IR name="stage4_unit1_conv3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage4_unit1_sc_weight" output_port_id="stage4_unit1_sc_weight" />
+		<IR name="stage4_unit1_sc_weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage4_unit1_sc" output_port_id="stage4_unit1_sc" />
+		<IR name="stage4_unit1_sc" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus13" output_port_id="_plus13" />
+		<IR name="_plus13" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage4_unit2_bn1" output_port_id="stage4_unit2_bn1" />
+		<IR name="stage4_unit2_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage4_unit2_relu1" output_port_id="stage4_unit2_relu1" />
+		<IR name="stage4_unit2_relu1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="stage4_unit2_bn2" output_port_id="stage4_unit2_bn2" />
+		<IR name="stage4_unit2_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage4_unit2_relu2" output_port_id="stage4_unit2_relu2" />
+		<IR name="stage4_unit2_relu2" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="stage4_unit2_bn3" output_port_id="stage4_unit2_bn3" />
+		<IR name="stage4_unit2_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage4_unit2_relu3" output_port_id="stage4_unit2_relu3" />
+		<IR name="stage4_unit2_relu3" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="stage4_unit2_conv3_weight" output_port_id="stage4_unit2_conv3_weight" />
+		<IR name="stage4_unit2_conv3_weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage4_unit2_conv3" output_port_id="stage4_unit2_conv3" />
+		<IR name="stage4_unit2_conv3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus14" output_port_id="_plus14" />
+		<IR name="_plus14" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage4_unit3_bn1" output_port_id="stage4_unit3_bn1" />
+		<IR name="stage4_unit3_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage4_unit3_relu1" output_port_id="stage4_unit3_relu1" />
+		<IR name="stage4_unit3_relu1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="stage4_unit3_bn2" output_port_id="stage4_unit3_bn2" />
+		<IR name="stage4_unit3_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage4_unit3_relu2" output_port_id="stage4_unit3_relu2" />
+		<IR name="stage4_unit3_relu2" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="stage4_unit3_bn3" output_port_id="stage4_unit3_bn3" />
+		<IR name="stage4_unit3_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage4_unit3_relu3" output_port_id="stage4_unit3_relu3" />
+		<IR name="stage4_unit3_relu3" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="stage4_unit3_conv3_weight" output_port_id="stage4_unit3_conv3_weight" />
+		<IR name="stage4_unit3_conv3_weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage4_unit3_conv3" output_port_id="stage4_unit3_conv3" />
+		<IR name="stage4_unit3_conv3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus15" output_port_id="_plus15" />
+		<IR name="_plus15" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="bn1" output_port_id="bn1" />
+		<IR name="bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="relu1" output_port_id="relu1" />
+		<IR name="relu1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="ssh_c3_lateral_bn" output_port_id="ssh_c3_lateral_bn" />
+		<IR name="ssh_c3_lateral_bn" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="ssh_c3_lateral_relu" output_port_id="ssh_c3_lateral_relu" />
+		<IR name="ssh_c3_lateral_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="ssh_c3_upscale" output_port_id="ssh_c3_upscale" />
+		<IR name="ssh_c3_upscale" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="ssh_c3_up" output_port_id="ssh_c3_up" />
+		<IR name="ssh_c3_up" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="crop0__starts" output_port_id="crop0__starts" />
+		<IR name="crop0__starts" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="ssh_c2_lateral_relu__shape" output_port_id="ssh_c2_lateral_relu__shape" />
+		<IR name="ssh_c2_lateral_relu__shape" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="crop0" output_port_id="crop0" />
+		<IR name="crop0" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="_plus0_1" output_port_id="_plus0_1" />
+		<IR name="_plus0_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="ssh_c2_aggr_bn" output_port_id="ssh_c2_aggr_bn" />
+		<IR name="ssh_c2_aggr_bn" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="ssh_c2_aggr_relu" output_port_id="ssh_c2_aggr_relu" />
+		<IR name="ssh_c2_aggr_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="ssh_m2_red_upscale" output_port_id="ssh_m2_red_upscale" />
+		<IR name="ssh_m2_red_upscale" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="ssh_m2_red_up" output_port_id="ssh_m2_red_up" />
+		<IR name="ssh_m2_red_up" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="crop1__starts" output_port_id="crop1__starts" />
+		<IR name="crop1__starts" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="ssh_m1_red_conv_relu__shape" output_port_id="ssh_m1_red_conv_relu__shape" />
+		<IR name="ssh_m1_red_conv_relu__shape" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="crop1" output_port_id="crop1" />
+		<IR name="crop1" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="_plus1_1" output_port_id="_plus1_1" />
+		<IR name="_plus1_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="ssh_c1_aggr_bn" output_port_id="ssh_c1_aggr_bn" />
+		<IR name="ssh_c1_aggr_bn" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="ssh_c1_aggr_relu" output_port_id="ssh_c1_aggr_relu" />
+		<IR name="ssh_c1_aggr_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="ssh_m1_det_conv1_bn" output_port_id="ssh_m1_det_conv1_bn" />
+		<IR name="ssh_m1_det_conv1_bn" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="ssh_m1_det_context_conv1_bn" output_port_id="ssh_m1_det_context_conv1_bn" />
+		<IR name="ssh_m1_det_context_conv1_bn" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="ssh_m1_det_context_conv1_relu" output_port_id="ssh_m1_det_context_conv1_relu" />
+		<IR name="ssh_m1_det_context_conv1_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="ssh_m1_det_context_conv2_bn" output_port_id="ssh_m1_det_context_conv2_bn" />
+		<IR name="ssh_m1_det_context_conv2_bn" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="ssh_m1_det_context_conv3_1_bn" output_port_id="ssh_m1_det_context_conv3_1_bn" />
+		<IR name="ssh_m1_det_context_conv3_1_bn" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="ssh_m1_det_context_conv3_1_relu" output_port_id="ssh_m1_det_context_conv3_1_relu" />
+		<IR name="ssh_m1_det_context_conv3_1_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="ssh_m1_det_context_conv3_2_bn" output_port_id="ssh_m1_det_context_conv3_2_bn" />
+		<IR name="ssh_m1_det_context_conv3_2_bn" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="ssh_m1_det_concat" output_port_id="ssh_m1_det_concat" />
+		<IR name="ssh_m1_det_concat" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="ssh_m1_det_concat_relu" output_port_id="ssh_m1_det_concat_relu" />
+		<IR name="ssh_m1_det_concat_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="face_rpn_landmark_pred_stride8_weight" output_port_id="face_rpn_landmark_pred_stride8_weight" />
+		<IR name="face_rpn_landmark_pred_stride8_weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="face_rpn_landmark_pred_stride8" output_port_id="face_rpn_landmark_pred_stride8" />
+		<IR name="face_rpn_landmark_pred_stride8" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="face_rpn_bbox_pred_stride8_weight" output_port_id="face_rpn_bbox_pred_stride8_weight" />
+		<IR name="face_rpn_bbox_pred_stride8_weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="face_rpn_bbox_pred_stride8" output_port_id="face_rpn_bbox_pred_stride8" />
+		<IR name="face_rpn_bbox_pred_stride8" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="face_rpn_cls_score_stride8_weight" output_port_id="face_rpn_cls_score_stride8_weight" />
+		<IR name="face_rpn_cls_score_stride8_weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="face_rpn_cls_score_stride8" output_port_id="face_rpn_cls_score_stride8" />
+		<IR name="face_rpn_cls_score_stride8" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="reshape_attr_tensor639" output_port_id="reshape_attr_tensor639" />
+		<IR name="reshape_attr_tensor639" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="face_rpn_cls_score_reshape_stride8" output_port_id="face_rpn_cls_score_reshape_stride8" />
+		<IR name="face_rpn_cls_score_reshape_stride8" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="face_rpn_cls_prob_stride8_tr1" output_port_id="face_rpn_cls_prob_stride8_tr1" />
+		<IR name="face_rpn_cls_prob_stride8_tr1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="face_rpn_cls_prob_stride8" output_port_id="face_rpn_cls_prob_stride8" />
+		<IR name="face_rpn_cls_prob_stride8" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="face_rpn_cls_prob_stride8_tr2" output_port_id="face_rpn_cls_prob_stride8_tr2" />
+		<IR name="face_rpn_cls_prob_stride8_tr2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="reshape_attr_tensor641" output_port_id="reshape_attr_tensor641" />
+		<IR name="reshape_attr_tensor641" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="face_rpn_cls_prob_reshape_stride8" output_port_id="face_rpn_cls_prob_reshape_stride8" />
+		<IR name="face_rpn_cls_prob_reshape_stride8" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="ssh_m2_det_conv1_bn" output_port_id="ssh_m2_det_conv1_bn" />
+		<IR name="ssh_m2_det_conv1_bn" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="ssh_m2_det_context_conv1_bn" output_port_id="ssh_m2_det_context_conv1_bn" />
+		<IR name="ssh_m2_det_context_conv1_bn" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="ssh_m2_det_context_conv1_relu" output_port_id="ssh_m2_det_context_conv1_relu" />
+		<IR name="ssh_m2_det_context_conv1_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="ssh_m2_det_context_conv2_bn" output_port_id="ssh_m2_det_context_conv2_bn" />
+		<IR name="ssh_m2_det_context_conv2_bn" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="ssh_m2_det_context_conv3_1_bn" output_port_id="ssh_m2_det_context_conv3_1_bn" />
+		<IR name="ssh_m2_det_context_conv3_1_bn" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="ssh_m2_det_context_conv3_1_relu" output_port_id="ssh_m2_det_context_conv3_1_relu" />
+		<IR name="ssh_m2_det_context_conv3_1_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="ssh_m2_det_context_conv3_2_bn" output_port_id="ssh_m2_det_context_conv3_2_bn" />
+		<IR name="ssh_m2_det_context_conv3_2_bn" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="ssh_m2_det_concat" output_port_id="ssh_m2_det_concat" />
+		<IR name="ssh_m2_det_concat" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="ssh_m2_det_concat_relu" output_port_id="ssh_m2_det_concat_relu" />
+		<IR name="ssh_m2_det_concat_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="face_rpn_landmark_pred_stride16_weight" output_port_id="face_rpn_landmark_pred_stride16_weight" />
+		<IR name="face_rpn_landmark_pred_stride16_weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="face_rpn_landmark_pred_stride16" output_port_id="face_rpn_landmark_pred_stride16" />
+		<IR name="face_rpn_landmark_pred_stride16" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="face_rpn_bbox_pred_stride16_weight" output_port_id="face_rpn_bbox_pred_stride16_weight" />
+		<IR name="face_rpn_bbox_pred_stride16_weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="face_rpn_bbox_pred_stride16" output_port_id="face_rpn_bbox_pred_stride16" />
+		<IR name="face_rpn_bbox_pred_stride16" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="face_rpn_cls_score_stride16_weight" output_port_id="face_rpn_cls_score_stride16_weight" />
+		<IR name="face_rpn_cls_score_stride16_weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="face_rpn_cls_score_stride16" output_port_id="face_rpn_cls_score_stride16" />
+		<IR name="face_rpn_cls_score_stride16" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="reshape_attr_tensor562" output_port_id="reshape_attr_tensor562" />
+		<IR name="reshape_attr_tensor562" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="face_rpn_cls_score_reshape_stride16" output_port_id="face_rpn_cls_score_reshape_stride16" />
+		<IR name="face_rpn_cls_score_reshape_stride16" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="face_rpn_cls_prob_stride16_tr1" output_port_id="face_rpn_cls_prob_stride16_tr1" />
+		<IR name="face_rpn_cls_prob_stride16_tr1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="face_rpn_cls_prob_stride16" output_port_id="face_rpn_cls_prob_stride16" />
+		<IR name="face_rpn_cls_prob_stride16" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="face_rpn_cls_prob_stride16_tr2" output_port_id="face_rpn_cls_prob_stride16_tr2" />
+		<IR name="face_rpn_cls_prob_stride16_tr2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="reshape_attr_tensor564" output_port_id="reshape_attr_tensor564" />
+		<IR name="reshape_attr_tensor564" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="face_rpn_cls_prob_reshape_stride16" output_port_id="face_rpn_cls_prob_reshape_stride16" />
+		<IR name="face_rpn_cls_prob_reshape_stride16" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="ssh_m3_det_conv1_bn" output_port_id="ssh_m3_det_conv1_bn" />
+		<IR name="ssh_m3_det_conv1_bn" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="ssh_m3_det_context_conv1_bn" output_port_id="ssh_m3_det_context_conv1_bn" />
+		<IR name="ssh_m3_det_context_conv1_bn" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="ssh_m3_det_context_conv1_relu" output_port_id="ssh_m3_det_context_conv1_relu" />
+		<IR name="ssh_m3_det_context_conv1_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="ssh_m3_det_context_conv2_bn" output_port_id="ssh_m3_det_context_conv2_bn" />
+		<IR name="ssh_m3_det_context_conv2_bn" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="ssh_m3_det_context_conv3_1_bn" output_port_id="ssh_m3_det_context_conv3_1_bn" />
+		<IR name="ssh_m3_det_context_conv3_1_bn" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="ssh_m3_det_context_conv3_1_relu" output_port_id="ssh_m3_det_context_conv3_1_relu" />
+		<IR name="ssh_m3_det_context_conv3_1_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="ssh_m3_det_context_conv3_2_bn" output_port_id="ssh_m3_det_context_conv3_2_bn" />
+		<IR name="ssh_m3_det_context_conv3_2_bn" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="ssh_m3_det_concat" output_port_id="ssh_m3_det_concat" />
+		<IR name="ssh_m3_det_concat" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="ssh_m3_det_concat_relu" output_port_id="ssh_m3_det_concat_relu" />
+		<IR name="ssh_m3_det_concat_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="face_rpn_landmark_pred_stride32_weight" output_port_id="face_rpn_landmark_pred_stride32_weight" />
+		<IR name="face_rpn_landmark_pred_stride32_weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="face_rpn_landmark_pred_stride32" output_port_id="face_rpn_landmark_pred_stride32" />
+		<IR name="face_rpn_landmark_pred_stride32" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="face_rpn_bbox_pred_stride32_weight" output_port_id="face_rpn_bbox_pred_stride32_weight" />
+		<IR name="face_rpn_bbox_pred_stride32_weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="face_rpn_bbox_pred_stride32" output_port_id="face_rpn_bbox_pred_stride32" />
+		<IR name="face_rpn_bbox_pred_stride32" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="face_rpn_cls_score_stride32_weight" output_port_id="face_rpn_cls_score_stride32_weight" />
+		<IR name="face_rpn_cls_score_stride32_weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="face_rpn_cls_score_stride32" output_port_id="face_rpn_cls_score_stride32" />
+		<IR name="face_rpn_cls_score_stride32" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="reshape_attr_tensor485" output_port_id="reshape_attr_tensor485" />
+		<IR name="reshape_attr_tensor485" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="face_rpn_cls_score_reshape_stride32" output_port_id="face_rpn_cls_score_reshape_stride32" />
+		<IR name="face_rpn_cls_score_reshape_stride32" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="face_rpn_cls_prob_stride32_tr1" output_port_id="face_rpn_cls_prob_stride32_tr1" />
+		<IR name="face_rpn_cls_prob_stride32_tr1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="face_rpn_cls_prob_stride32" output_port_id="face_rpn_cls_prob_stride32" />
+		<IR name="face_rpn_cls_prob_stride32" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="face_rpn_cls_prob_stride32_tr2" output_port_id="face_rpn_cls_prob_stride32_tr2" />
+		<IR name="face_rpn_cls_prob_stride32_tr2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="reshape_attr_tensor487" output_port_id="reshape_attr_tensor487" />
+		<IR name="reshape_attr_tensor487" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="face_rpn_cls_prob_reshape_stride32" output_port_id="face_rpn_cls_prob_reshape_stride32" />
+		<IR name="face_rpn_cls_prob_reshape_stride32" output_port_id="2" />
+	</map>
+</mapping>

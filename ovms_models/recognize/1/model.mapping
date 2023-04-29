@@ -1,0 +1,1231 @@
+<?xml version="1.0"?>
+<mapping>
+	<map>
+		<framework name="id" output_port_id="id" />
+		<IR name="id" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="id" output_port_id="data" />
+		<IR name="id" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="_minusscalar0" output_port_id="_minusscalar0" />
+		<IR name="_minusscalar0" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="bn0" output_port_id="bn0" />
+		<IR name="bn0" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="slope12" output_port_id="slope12" />
+		<IR name="slope12" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="relu0" output_port_id="relu0" />
+		<IR name="relu0" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage1_unit1_bn1" output_port_id="stage1_unit1_bn1" />
+		<IR name="stage1_unit1_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage1_unit1_bn2" output_port_id="stage1_unit1_bn2" />
+		<IR name="stage1_unit1_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="slope26" output_port_id="slope26" />
+		<IR name="slope26" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage1_unit1_relu1" output_port_id="stage1_unit1_relu1" />
+		<IR name="stage1_unit1_relu1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage1_unit1_bn3" output_port_id="stage1_unit1_bn3" />
+		<IR name="stage1_unit1_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage1_unit1_sc" output_port_id="stage1_unit1_sc" />
+		<IR name="stage1_unit1_sc" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus0" output_port_id="_plus0" />
+		<IR name="_plus0" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage1_unit2_bn1" output_port_id="stage1_unit2_bn1" />
+		<IR name="stage1_unit2_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage1_unit2_bn2" output_port_id="stage1_unit2_bn2" />
+		<IR name="stage1_unit2_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="slope55" output_port_id="slope55" />
+		<IR name="slope55" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage1_unit2_relu1" output_port_id="stage1_unit2_relu1" />
+		<IR name="stage1_unit2_relu1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage1_unit2_bn3" output_port_id="stage1_unit2_bn3" />
+		<IR name="stage1_unit2_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus1" output_port_id="_plus1" />
+		<IR name="_plus1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage1_unit3_bn1" output_port_id="stage1_unit3_bn1" />
+		<IR name="stage1_unit3_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage1_unit3_bn2" output_port_id="stage1_unit3_bn2" />
+		<IR name="stage1_unit3_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="slope77" output_port_id="slope77" />
+		<IR name="slope77" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage1_unit3_relu1" output_port_id="stage1_unit3_relu1" />
+		<IR name="stage1_unit3_relu1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage1_unit3_bn3" output_port_id="stage1_unit3_bn3" />
+		<IR name="stage1_unit3_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus2" output_port_id="_plus2" />
+		<IR name="_plus2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage2_unit1_bn1" output_port_id="stage2_unit1_bn1" />
+		<IR name="stage2_unit1_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage2_unit1_bn2" output_port_id="stage2_unit1_bn2" />
+		<IR name="stage2_unit1_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="slope99" output_port_id="slope99" />
+		<IR name="slope99" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage2_unit1_relu1" output_port_id="stage2_unit1_relu1" />
+		<IR name="stage2_unit1_relu1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage2_unit1_bn3" output_port_id="stage2_unit1_bn3" />
+		<IR name="stage2_unit1_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage2_unit1_sc" output_port_id="stage2_unit1_sc" />
+		<IR name="stage2_unit1_sc" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus3" output_port_id="_plus3" />
+		<IR name="_plus3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage2_unit2_bn1" output_port_id="stage2_unit2_bn1" />
+		<IR name="stage2_unit2_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage2_unit2_bn2" output_port_id="stage2_unit2_bn2" />
+		<IR name="stage2_unit2_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="slope128" output_port_id="slope128" />
+		<IR name="slope128" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage2_unit2_relu1" output_port_id="stage2_unit2_relu1" />
+		<IR name="stage2_unit2_relu1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage2_unit2_bn3" output_port_id="stage2_unit2_bn3" />
+		<IR name="stage2_unit2_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus4" output_port_id="_plus4" />
+		<IR name="_plus4" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage2_unit3_bn1" output_port_id="stage2_unit3_bn1" />
+		<IR name="stage2_unit3_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage2_unit3_bn2" output_port_id="stage2_unit3_bn2" />
+		<IR name="stage2_unit3_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="slope150" output_port_id="slope150" />
+		<IR name="slope150" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage2_unit3_relu1" output_port_id="stage2_unit3_relu1" />
+		<IR name="stage2_unit3_relu1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage2_unit3_bn3" output_port_id="stage2_unit3_bn3" />
+		<IR name="stage2_unit3_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus5" output_port_id="_plus5" />
+		<IR name="_plus5" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage2_unit4_bn1" output_port_id="stage2_unit4_bn1" />
+		<IR name="stage2_unit4_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage2_unit4_bn2" output_port_id="stage2_unit4_bn2" />
+		<IR name="stage2_unit4_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="slope172" output_port_id="slope172" />
+		<IR name="slope172" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage2_unit4_relu1" output_port_id="stage2_unit4_relu1" />
+		<IR name="stage2_unit4_relu1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage2_unit4_bn3" output_port_id="stage2_unit4_bn3" />
+		<IR name="stage2_unit4_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus6" output_port_id="_plus6" />
+		<IR name="_plus6" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage2_unit5_bn1" output_port_id="stage2_unit5_bn1" />
+		<IR name="stage2_unit5_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage2_unit5_bn2" output_port_id="stage2_unit5_bn2" />
+		<IR name="stage2_unit5_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="slope194" output_port_id="slope194" />
+		<IR name="slope194" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage2_unit5_relu1" output_port_id="stage2_unit5_relu1" />
+		<IR name="stage2_unit5_relu1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage2_unit5_bn3" output_port_id="stage2_unit5_bn3" />
+		<IR name="stage2_unit5_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus7" output_port_id="_plus7" />
+		<IR name="_plus7" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage2_unit6_bn1" output_port_id="stage2_unit6_bn1" />
+		<IR name="stage2_unit6_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage2_unit6_bn2" output_port_id="stage2_unit6_bn2" />
+		<IR name="stage2_unit6_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="slope216" output_port_id="slope216" />
+		<IR name="slope216" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage2_unit6_relu1" output_port_id="stage2_unit6_relu1" />
+		<IR name="stage2_unit6_relu1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage2_unit6_bn3" output_port_id="stage2_unit6_bn3" />
+		<IR name="stage2_unit6_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus8" output_port_id="_plus8" />
+		<IR name="_plus8" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage2_unit7_bn1" output_port_id="stage2_unit7_bn1" />
+		<IR name="stage2_unit7_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage2_unit7_bn2" output_port_id="stage2_unit7_bn2" />
+		<IR name="stage2_unit7_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="slope238" output_port_id="slope238" />
+		<IR name="slope238" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage2_unit7_relu1" output_port_id="stage2_unit7_relu1" />
+		<IR name="stage2_unit7_relu1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage2_unit7_bn3" output_port_id="stage2_unit7_bn3" />
+		<IR name="stage2_unit7_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus9" output_port_id="_plus9" />
+		<IR name="_plus9" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage2_unit8_bn1" output_port_id="stage2_unit8_bn1" />
+		<IR name="stage2_unit8_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage2_unit8_bn2" output_port_id="stage2_unit8_bn2" />
+		<IR name="stage2_unit8_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="slope260" output_port_id="slope260" />
+		<IR name="slope260" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage2_unit8_relu1" output_port_id="stage2_unit8_relu1" />
+		<IR name="stage2_unit8_relu1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage2_unit8_bn3" output_port_id="stage2_unit8_bn3" />
+		<IR name="stage2_unit8_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus10" output_port_id="_plus10" />
+		<IR name="_plus10" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage2_unit9_bn1" output_port_id="stage2_unit9_bn1" />
+		<IR name="stage2_unit9_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage2_unit9_bn2" output_port_id="stage2_unit9_bn2" />
+		<IR name="stage2_unit9_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="slope282" output_port_id="slope282" />
+		<IR name="slope282" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage2_unit9_relu1" output_port_id="stage2_unit9_relu1" />
+		<IR name="stage2_unit9_relu1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage2_unit9_bn3" output_port_id="stage2_unit9_bn3" />
+		<IR name="stage2_unit9_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus11" output_port_id="_plus11" />
+		<IR name="_plus11" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage2_unit10_bn1" output_port_id="stage2_unit10_bn1" />
+		<IR name="stage2_unit10_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage2_unit10_bn2" output_port_id="stage2_unit10_bn2" />
+		<IR name="stage2_unit10_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="slope304" output_port_id="slope304" />
+		<IR name="slope304" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage2_unit10_relu1" output_port_id="stage2_unit10_relu1" />
+		<IR name="stage2_unit10_relu1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage2_unit10_bn3" output_port_id="stage2_unit10_bn3" />
+		<IR name="stage2_unit10_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus12" output_port_id="_plus12" />
+		<IR name="_plus12" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage2_unit11_bn1" output_port_id="stage2_unit11_bn1" />
+		<IR name="stage2_unit11_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage2_unit11_bn2" output_port_id="stage2_unit11_bn2" />
+		<IR name="stage2_unit11_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="slope326" output_port_id="slope326" />
+		<IR name="slope326" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage2_unit11_relu1" output_port_id="stage2_unit11_relu1" />
+		<IR name="stage2_unit11_relu1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage2_unit11_bn3" output_port_id="stage2_unit11_bn3" />
+		<IR name="stage2_unit11_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus13" output_port_id="_plus13" />
+		<IR name="_plus13" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage2_unit12_bn1" output_port_id="stage2_unit12_bn1" />
+		<IR name="stage2_unit12_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage2_unit12_bn2" output_port_id="stage2_unit12_bn2" />
+		<IR name="stage2_unit12_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="slope348" output_port_id="slope348" />
+		<IR name="slope348" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage2_unit12_relu1" output_port_id="stage2_unit12_relu1" />
+		<IR name="stage2_unit12_relu1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage2_unit12_bn3" output_port_id="stage2_unit12_bn3" />
+		<IR name="stage2_unit12_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus14" output_port_id="_plus14" />
+		<IR name="_plus14" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage2_unit13_bn1" output_port_id="stage2_unit13_bn1" />
+		<IR name="stage2_unit13_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage2_unit13_bn2" output_port_id="stage2_unit13_bn2" />
+		<IR name="stage2_unit13_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="slope370" output_port_id="slope370" />
+		<IR name="slope370" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage2_unit13_relu1" output_port_id="stage2_unit13_relu1" />
+		<IR name="stage2_unit13_relu1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage2_unit13_bn3" output_port_id="stage2_unit13_bn3" />
+		<IR name="stage2_unit13_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus15" output_port_id="_plus15" />
+		<IR name="_plus15" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit1_bn1" output_port_id="stage3_unit1_bn1" />
+		<IR name="stage3_unit1_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit1_bn2" output_port_id="stage3_unit1_bn2" />
+		<IR name="stage3_unit1_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="slope392" output_port_id="slope392" />
+		<IR name="slope392" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage3_unit1_relu1" output_port_id="stage3_unit1_relu1" />
+		<IR name="stage3_unit1_relu1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit1_bn3" output_port_id="stage3_unit1_bn3" />
+		<IR name="stage3_unit1_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit1_sc" output_port_id="stage3_unit1_sc" />
+		<IR name="stage3_unit1_sc" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus16" output_port_id="_plus16" />
+		<IR name="_plus16" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit2_bn1" output_port_id="stage3_unit2_bn1" />
+		<IR name="stage3_unit2_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit2_bn2" output_port_id="stage3_unit2_bn2" />
+		<IR name="stage3_unit2_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="slope421" output_port_id="slope421" />
+		<IR name="slope421" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage3_unit2_relu1" output_port_id="stage3_unit2_relu1" />
+		<IR name="stage3_unit2_relu1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit2_bn3" output_port_id="stage3_unit2_bn3" />
+		<IR name="stage3_unit2_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus17" output_port_id="_plus17" />
+		<IR name="_plus17" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit3_bn1" output_port_id="stage3_unit3_bn1" />
+		<IR name="stage3_unit3_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit3_bn2" output_port_id="stage3_unit3_bn2" />
+		<IR name="stage3_unit3_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="slope443" output_port_id="slope443" />
+		<IR name="slope443" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage3_unit3_relu1" output_port_id="stage3_unit3_relu1" />
+		<IR name="stage3_unit3_relu1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit3_bn3" output_port_id="stage3_unit3_bn3" />
+		<IR name="stage3_unit3_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus18" output_port_id="_plus18" />
+		<IR name="_plus18" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit4_bn1" output_port_id="stage3_unit4_bn1" />
+		<IR name="stage3_unit4_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit4_bn2" output_port_id="stage3_unit4_bn2" />
+		<IR name="stage3_unit4_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="slope465" output_port_id="slope465" />
+		<IR name="slope465" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage3_unit4_relu1" output_port_id="stage3_unit4_relu1" />
+		<IR name="stage3_unit4_relu1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit4_bn3" output_port_id="stage3_unit4_bn3" />
+		<IR name="stage3_unit4_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus19" output_port_id="_plus19" />
+		<IR name="_plus19" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit5_bn1" output_port_id="stage3_unit5_bn1" />
+		<IR name="stage3_unit5_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit5_bn2" output_port_id="stage3_unit5_bn2" />
+		<IR name="stage3_unit5_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="slope487" output_port_id="slope487" />
+		<IR name="slope487" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage3_unit5_relu1" output_port_id="stage3_unit5_relu1" />
+		<IR name="stage3_unit5_relu1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit5_bn3" output_port_id="stage3_unit5_bn3" />
+		<IR name="stage3_unit5_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus20" output_port_id="_plus20" />
+		<IR name="_plus20" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit6_bn1" output_port_id="stage3_unit6_bn1" />
+		<IR name="stage3_unit6_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit6_bn2" output_port_id="stage3_unit6_bn2" />
+		<IR name="stage3_unit6_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="slope509" output_port_id="slope509" />
+		<IR name="slope509" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage3_unit6_relu1" output_port_id="stage3_unit6_relu1" />
+		<IR name="stage3_unit6_relu1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit6_bn3" output_port_id="stage3_unit6_bn3" />
+		<IR name="stage3_unit6_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus21" output_port_id="_plus21" />
+		<IR name="_plus21" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit7_bn1" output_port_id="stage3_unit7_bn1" />
+		<IR name="stage3_unit7_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit7_bn2" output_port_id="stage3_unit7_bn2" />
+		<IR name="stage3_unit7_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="slope531" output_port_id="slope531" />
+		<IR name="slope531" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage3_unit7_relu1" output_port_id="stage3_unit7_relu1" />
+		<IR name="stage3_unit7_relu1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit7_bn3" output_port_id="stage3_unit7_bn3" />
+		<IR name="stage3_unit7_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus22" output_port_id="_plus22" />
+		<IR name="_plus22" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit8_bn1" output_port_id="stage3_unit8_bn1" />
+		<IR name="stage3_unit8_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit8_bn2" output_port_id="stage3_unit8_bn2" />
+		<IR name="stage3_unit8_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="slope553" output_port_id="slope553" />
+		<IR name="slope553" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage3_unit8_relu1" output_port_id="stage3_unit8_relu1" />
+		<IR name="stage3_unit8_relu1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit8_bn3" output_port_id="stage3_unit8_bn3" />
+		<IR name="stage3_unit8_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus23" output_port_id="_plus23" />
+		<IR name="_plus23" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit9_bn1" output_port_id="stage3_unit9_bn1" />
+		<IR name="stage3_unit9_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit9_bn2" output_port_id="stage3_unit9_bn2" />
+		<IR name="stage3_unit9_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="slope575" output_port_id="slope575" />
+		<IR name="slope575" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage3_unit9_relu1" output_port_id="stage3_unit9_relu1" />
+		<IR name="stage3_unit9_relu1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit9_bn3" output_port_id="stage3_unit9_bn3" />
+		<IR name="stage3_unit9_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus24" output_port_id="_plus24" />
+		<IR name="_plus24" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit10_bn1" output_port_id="stage3_unit10_bn1" />
+		<IR name="stage3_unit10_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit10_bn2" output_port_id="stage3_unit10_bn2" />
+		<IR name="stage3_unit10_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="slope597" output_port_id="slope597" />
+		<IR name="slope597" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage3_unit10_relu1" output_port_id="stage3_unit10_relu1" />
+		<IR name="stage3_unit10_relu1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit10_bn3" output_port_id="stage3_unit10_bn3" />
+		<IR name="stage3_unit10_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus25" output_port_id="_plus25" />
+		<IR name="_plus25" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit11_bn1" output_port_id="stage3_unit11_bn1" />
+		<IR name="stage3_unit11_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit11_bn2" output_port_id="stage3_unit11_bn2" />
+		<IR name="stage3_unit11_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="slope619" output_port_id="slope619" />
+		<IR name="slope619" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage3_unit11_relu1" output_port_id="stage3_unit11_relu1" />
+		<IR name="stage3_unit11_relu1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit11_bn3" output_port_id="stage3_unit11_bn3" />
+		<IR name="stage3_unit11_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus26" output_port_id="_plus26" />
+		<IR name="_plus26" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit12_bn1" output_port_id="stage3_unit12_bn1" />
+		<IR name="stage3_unit12_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit12_bn2" output_port_id="stage3_unit12_bn2" />
+		<IR name="stage3_unit12_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="slope641" output_port_id="slope641" />
+		<IR name="slope641" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage3_unit12_relu1" output_port_id="stage3_unit12_relu1" />
+		<IR name="stage3_unit12_relu1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit12_bn3" output_port_id="stage3_unit12_bn3" />
+		<IR name="stage3_unit12_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus27" output_port_id="_plus27" />
+		<IR name="_plus27" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit13_bn1" output_port_id="stage3_unit13_bn1" />
+		<IR name="stage3_unit13_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit13_bn2" output_port_id="stage3_unit13_bn2" />
+		<IR name="stage3_unit13_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="slope663" output_port_id="slope663" />
+		<IR name="slope663" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage3_unit13_relu1" output_port_id="stage3_unit13_relu1" />
+		<IR name="stage3_unit13_relu1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit13_bn3" output_port_id="stage3_unit13_bn3" />
+		<IR name="stage3_unit13_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus28" output_port_id="_plus28" />
+		<IR name="_plus28" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit14_bn1" output_port_id="stage3_unit14_bn1" />
+		<IR name="stage3_unit14_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit14_bn2" output_port_id="stage3_unit14_bn2" />
+		<IR name="stage3_unit14_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="slope685" output_port_id="slope685" />
+		<IR name="slope685" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage3_unit14_relu1" output_port_id="stage3_unit14_relu1" />
+		<IR name="stage3_unit14_relu1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit14_bn3" output_port_id="stage3_unit14_bn3" />
+		<IR name="stage3_unit14_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus29" output_port_id="_plus29" />
+		<IR name="_plus29" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit15_bn1" output_port_id="stage3_unit15_bn1" />
+		<IR name="stage3_unit15_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit15_bn2" output_port_id="stage3_unit15_bn2" />
+		<IR name="stage3_unit15_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="slope707" output_port_id="slope707" />
+		<IR name="slope707" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage3_unit15_relu1" output_port_id="stage3_unit15_relu1" />
+		<IR name="stage3_unit15_relu1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit15_bn3" output_port_id="stage3_unit15_bn3" />
+		<IR name="stage3_unit15_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus30" output_port_id="_plus30" />
+		<IR name="_plus30" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit16_bn1" output_port_id="stage3_unit16_bn1" />
+		<IR name="stage3_unit16_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit16_bn2" output_port_id="stage3_unit16_bn2" />
+		<IR name="stage3_unit16_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="slope729" output_port_id="slope729" />
+		<IR name="slope729" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage3_unit16_relu1" output_port_id="stage3_unit16_relu1" />
+		<IR name="stage3_unit16_relu1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit16_bn3" output_port_id="stage3_unit16_bn3" />
+		<IR name="stage3_unit16_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus31" output_port_id="_plus31" />
+		<IR name="_plus31" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit17_bn1" output_port_id="stage3_unit17_bn1" />
+		<IR name="stage3_unit17_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit17_bn2" output_port_id="stage3_unit17_bn2" />
+		<IR name="stage3_unit17_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="slope751" output_port_id="slope751" />
+		<IR name="slope751" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage3_unit17_relu1" output_port_id="stage3_unit17_relu1" />
+		<IR name="stage3_unit17_relu1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit17_bn3" output_port_id="stage3_unit17_bn3" />
+		<IR name="stage3_unit17_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus32" output_port_id="_plus32" />
+		<IR name="_plus32" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit18_bn1" output_port_id="stage3_unit18_bn1" />
+		<IR name="stage3_unit18_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit18_bn2" output_port_id="stage3_unit18_bn2" />
+		<IR name="stage3_unit18_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="slope773" output_port_id="slope773" />
+		<IR name="slope773" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage3_unit18_relu1" output_port_id="stage3_unit18_relu1" />
+		<IR name="stage3_unit18_relu1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit18_bn3" output_port_id="stage3_unit18_bn3" />
+		<IR name="stage3_unit18_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus33" output_port_id="_plus33" />
+		<IR name="_plus33" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit19_bn1" output_port_id="stage3_unit19_bn1" />
+		<IR name="stage3_unit19_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit19_bn2" output_port_id="stage3_unit19_bn2" />
+		<IR name="stage3_unit19_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="slope795" output_port_id="slope795" />
+		<IR name="slope795" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage3_unit19_relu1" output_port_id="stage3_unit19_relu1" />
+		<IR name="stage3_unit19_relu1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit19_bn3" output_port_id="stage3_unit19_bn3" />
+		<IR name="stage3_unit19_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus34" output_port_id="_plus34" />
+		<IR name="_plus34" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit20_bn1" output_port_id="stage3_unit20_bn1" />
+		<IR name="stage3_unit20_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit20_bn2" output_port_id="stage3_unit20_bn2" />
+		<IR name="stage3_unit20_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="slope817" output_port_id="slope817" />
+		<IR name="slope817" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage3_unit20_relu1" output_port_id="stage3_unit20_relu1" />
+		<IR name="stage3_unit20_relu1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit20_bn3" output_port_id="stage3_unit20_bn3" />
+		<IR name="stage3_unit20_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus35" output_port_id="_plus35" />
+		<IR name="_plus35" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit21_bn1" output_port_id="stage3_unit21_bn1" />
+		<IR name="stage3_unit21_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit21_bn2" output_port_id="stage3_unit21_bn2" />
+		<IR name="stage3_unit21_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="slope839" output_port_id="slope839" />
+		<IR name="slope839" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage3_unit21_relu1" output_port_id="stage3_unit21_relu1" />
+		<IR name="stage3_unit21_relu1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit21_bn3" output_port_id="stage3_unit21_bn3" />
+		<IR name="stage3_unit21_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus36" output_port_id="_plus36" />
+		<IR name="_plus36" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit22_bn1" output_port_id="stage3_unit22_bn1" />
+		<IR name="stage3_unit22_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit22_bn2" output_port_id="stage3_unit22_bn2" />
+		<IR name="stage3_unit22_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="slope861" output_port_id="slope861" />
+		<IR name="slope861" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage3_unit22_relu1" output_port_id="stage3_unit22_relu1" />
+		<IR name="stage3_unit22_relu1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit22_bn3" output_port_id="stage3_unit22_bn3" />
+		<IR name="stage3_unit22_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus37" output_port_id="_plus37" />
+		<IR name="_plus37" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit23_bn1" output_port_id="stage3_unit23_bn1" />
+		<IR name="stage3_unit23_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit23_bn2" output_port_id="stage3_unit23_bn2" />
+		<IR name="stage3_unit23_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="slope883" output_port_id="slope883" />
+		<IR name="slope883" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage3_unit23_relu1" output_port_id="stage3_unit23_relu1" />
+		<IR name="stage3_unit23_relu1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit23_bn3" output_port_id="stage3_unit23_bn3" />
+		<IR name="stage3_unit23_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus38" output_port_id="_plus38" />
+		<IR name="_plus38" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit24_bn1" output_port_id="stage3_unit24_bn1" />
+		<IR name="stage3_unit24_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit24_bn2" output_port_id="stage3_unit24_bn2" />
+		<IR name="stage3_unit24_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="slope905" output_port_id="slope905" />
+		<IR name="slope905" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage3_unit24_relu1" output_port_id="stage3_unit24_relu1" />
+		<IR name="stage3_unit24_relu1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit24_bn3" output_port_id="stage3_unit24_bn3" />
+		<IR name="stage3_unit24_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus39" output_port_id="_plus39" />
+		<IR name="_plus39" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit25_bn1" output_port_id="stage3_unit25_bn1" />
+		<IR name="stage3_unit25_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit25_bn2" output_port_id="stage3_unit25_bn2" />
+		<IR name="stage3_unit25_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="slope927" output_port_id="slope927" />
+		<IR name="slope927" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage3_unit25_relu1" output_port_id="stage3_unit25_relu1" />
+		<IR name="stage3_unit25_relu1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit25_bn3" output_port_id="stage3_unit25_bn3" />
+		<IR name="stage3_unit25_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus40" output_port_id="_plus40" />
+		<IR name="_plus40" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit26_bn1" output_port_id="stage3_unit26_bn1" />
+		<IR name="stage3_unit26_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit26_bn2" output_port_id="stage3_unit26_bn2" />
+		<IR name="stage3_unit26_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="slope949" output_port_id="slope949" />
+		<IR name="slope949" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage3_unit26_relu1" output_port_id="stage3_unit26_relu1" />
+		<IR name="stage3_unit26_relu1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit26_bn3" output_port_id="stage3_unit26_bn3" />
+		<IR name="stage3_unit26_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus41" output_port_id="_plus41" />
+		<IR name="_plus41" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit27_bn1" output_port_id="stage3_unit27_bn1" />
+		<IR name="stage3_unit27_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit27_bn2" output_port_id="stage3_unit27_bn2" />
+		<IR name="stage3_unit27_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="slope971" output_port_id="slope971" />
+		<IR name="slope971" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage3_unit27_relu1" output_port_id="stage3_unit27_relu1" />
+		<IR name="stage3_unit27_relu1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit27_bn3" output_port_id="stage3_unit27_bn3" />
+		<IR name="stage3_unit27_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus42" output_port_id="_plus42" />
+		<IR name="_plus42" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit28_bn1" output_port_id="stage3_unit28_bn1" />
+		<IR name="stage3_unit28_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit28_bn2" output_port_id="stage3_unit28_bn2" />
+		<IR name="stage3_unit28_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="slope993" output_port_id="slope993" />
+		<IR name="slope993" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage3_unit28_relu1" output_port_id="stage3_unit28_relu1" />
+		<IR name="stage3_unit28_relu1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit28_bn3" output_port_id="stage3_unit28_bn3" />
+		<IR name="stage3_unit28_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus43" output_port_id="_plus43" />
+		<IR name="_plus43" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit29_bn1" output_port_id="stage3_unit29_bn1" />
+		<IR name="stage3_unit29_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit29_bn2" output_port_id="stage3_unit29_bn2" />
+		<IR name="stage3_unit29_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="slope1015" output_port_id="slope1015" />
+		<IR name="slope1015" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage3_unit29_relu1" output_port_id="stage3_unit29_relu1" />
+		<IR name="stage3_unit29_relu1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit29_bn3" output_port_id="stage3_unit29_bn3" />
+		<IR name="stage3_unit29_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus44" output_port_id="_plus44" />
+		<IR name="_plus44" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit30_bn1" output_port_id="stage3_unit30_bn1" />
+		<IR name="stage3_unit30_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit30_bn2" output_port_id="stage3_unit30_bn2" />
+		<IR name="stage3_unit30_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="slope1037" output_port_id="slope1037" />
+		<IR name="slope1037" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage3_unit30_relu1" output_port_id="stage3_unit30_relu1" />
+		<IR name="stage3_unit30_relu1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage3_unit30_bn3" output_port_id="stage3_unit30_bn3" />
+		<IR name="stage3_unit30_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus45" output_port_id="_plus45" />
+		<IR name="_plus45" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage4_unit1_bn1" output_port_id="stage4_unit1_bn1" />
+		<IR name="stage4_unit1_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage4_unit1_bn2" output_port_id="stage4_unit1_bn2" />
+		<IR name="stage4_unit1_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="slope1059" output_port_id="slope1059" />
+		<IR name="slope1059" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage4_unit1_relu1" output_port_id="stage4_unit1_relu1" />
+		<IR name="stage4_unit1_relu1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage4_unit1_bn3" output_port_id="stage4_unit1_bn3" />
+		<IR name="stage4_unit1_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage4_unit1_sc" output_port_id="stage4_unit1_sc" />
+		<IR name="stage4_unit1_sc" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus46" output_port_id="_plus46" />
+		<IR name="_plus46" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage4_unit2_bn1" output_port_id="stage4_unit2_bn1" />
+		<IR name="stage4_unit2_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage4_unit2_bn2" output_port_id="stage4_unit2_bn2" />
+		<IR name="stage4_unit2_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="slope1088" output_port_id="slope1088" />
+		<IR name="slope1088" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage4_unit2_relu1" output_port_id="stage4_unit2_relu1" />
+		<IR name="stage4_unit2_relu1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage4_unit2_bn3" output_port_id="stage4_unit2_bn3" />
+		<IR name="stage4_unit2_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus47" output_port_id="_plus47" />
+		<IR name="_plus47" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage4_unit3_bn1" output_port_id="stage4_unit3_bn1" />
+		<IR name="stage4_unit3_bn1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage4_unit3_bn2" output_port_id="stage4_unit3_bn2" />
+		<IR name="stage4_unit3_bn2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="slope1110" output_port_id="slope1110" />
+		<IR name="slope1110" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="stage4_unit3_relu1" output_port_id="stage4_unit3_relu1" />
+		<IR name="stage4_unit3_relu1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="stage4_unit3_bn3" output_port_id="stage4_unit3_bn3" />
+		<IR name="stage4_unit3_bn3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="_plus48" output_port_id="_plus48" />
+		<IR name="_plus48" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="dropout0" output_port_id="dropout0" />
+		<IR name="dropout0" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="flatten_1127" output_port_id="flatten_1127" />
+		<IR name="flatten_1127" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="fc1" output_port_id="fc1" />
+		<IR name="fc1" output_port_id="2" />
+	</map>
+</mapping>
