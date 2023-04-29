@@ -8,7 +8,6 @@
 *.png
 *.index
 # Byte-compiled / optimized / DLL files
-*.bin
 __pycache__/
 # Environments
 .env
