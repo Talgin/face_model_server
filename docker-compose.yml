@@ -1,0 +1,12 @@
+version: '3'
+services:
+  model_server:
+    image: openvino/model_server:latest
+    container_name: face_ovms
+    restart: unless-stopped
+    ports:
+      - "30023:30023"
+      - "30024:30024"
+    volumes:
+      - ${PWD}/ovms_models:/models
+    command: --config_path /models/config.json --port 30023
